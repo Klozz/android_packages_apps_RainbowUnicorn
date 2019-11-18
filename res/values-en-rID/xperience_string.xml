@@ -53,26 +53,145 @@
     <string name="navigation_bar_enabled_title">Aktifkan</string>
     <string name="hardware_keys_volume_keys_title">Tombol volume</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Info pengisian daya pada layar kunci</string>
+    <string name="lockscreen_battery_info_summary">Tampilkan arus dan tegangan maksimal serta suhu baterai pada saat mengisi daya di layar kunci</string>
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Layar kunci</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Ketuk dua kali pada bagian atas atau bawah layar kunci akan membuat perangkat dalam mode tidur</string>
     <!-- Battery Styles -->
+    <string name="battery_style_title">Gaya ikon baterai</string>
+    <string name="battery_style_percent_title">Persentase baterai</string>
+    <string name="battery_style_land">Datar</string>
+    <string name="battery_style_dotted_circle">Lingkaran bertitik</string>
+    <string name="battery_style_big_circle">Lingkaran besar</string>
+    <string name="battery_style_big_dotted_circle">Lingkaran besar bertitik-titik</string>
+    <string name="show_battery_percent_summary">Tampilkan persentase baterai di dekat ikon</string>
+    <string name="battery_style_category_title">Ikon baterai</string>
+    <string name="battery_percent_none">Jangan tampilkan</string>
+    <string name="battery_percent_outside">Tampilkan dekat icon</string>
+    <string name="battery_percent_inside">Tampilkan di dalam ikon</string>
     <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_title">Gaya ikon baterai</string>
+    <string name="status_bar_battery_style_port">Tegak</string>
+    <string name="status_bar_battery_style_circle">Lingkaran</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
     <!--XPerience Active Display -->
+    <string name="ActiveDisplay_title">XPerience™ Active Display</string>
+    <string name="ActiveDisplay_summary">Active Display adalah cara baru dalam pengelolaan notifikasi Android.</string>
     <!-- Ambient music -->
+    <string name="force_ambient_for_media_pref_title">Dimainkan sekarang</string>
+    <string name="force_ambient_for_media_pref_summary">Tampilkan informasi track musik terkini</string>
+    <string name="ambient_ticker_footer">Fitur ini memungkinkan untuk menampilkan info track musik terkini di layar kunci dengan / tanpa Ambient Display ditterapkan.\n\nAnda dapat memilih dua layout, normal dan minimal. Ketika fitur ini mengambil keuntungan dari ambient display, fitur ini tidak tergantung padanya. Fitur ini dapat dipicu tanpa mengaktifkan ambient display dengan menggunakan opsi paksa.\n\nTampilan normal terdiri dari jam, tanggal, dan informasi musik layar kunci.\n\nTampilan minimal terdiri dari hanya info musik pada bagian tengah layar.</string>
+    <string name="force_ambient_for_media_title">Pilih tata letak</string>
+    <string name="force_ambient_for_media_off">Nonaktif</string>
+    <string name="force_ambient_for_media_on">Normal</string>
+    <string name="force_ambient_for_media_on_forced">Normal (paksa)</string>
+    <string name="force_ambient_for_media_on_forced_clean">Minimal (paksa)</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Deteksi saku</string>
+    <string name="pocket_judge_summary">Cegah perangkat tidak sengaja aktif ketika perangkat di dalam saku</string>
     <!-- Volume category -->
+    <string name="volume_category">Tombol volume</string>
     <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Kontrol pemutaran</string>
+    <string name="volume_button_music_control_summary">Ketika layar mati, tekan lama tombol volume untuk memainkan musik selanjutnya</string>
     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Tombol volume hidupkan layar</string>
+    <string name="volume_rocker_wake_summary">Hidupkan layar dengan menekan tombol volume</string>
     <!-- Navigation bar theme -->
+    <string name="navbar_theme_title">Tema</string>
+    <string name="navbar_theme_default">Setelan awal</string>
     <!-- System default animation -->
+    <string name="system_default_animation_title">Gaya animasi Android P</string>
+    <string name="system_default_animation_summary">Aktifkan animasi Android P \"Standar\"</string>
     <!-- Show 4G instead of LTE -->
+    <string name="show_4g_title">Tampilkan 4G</string>
+    <string name="show_4g_summary">Tampilkan 4G sebagai ganti LTE pada ikon sinyal</string>
     <!-- Statusbar logo -->
+    <string name="status_bar_logo_title">Xperience Shield</string>
+    <string name="status_bar_logo_dialog_title">Posisi logo XPerience Shield</string>
+    <string name="status_bar_logo_disabled">Nonaktif</string>
+    <string name="status_bar_logo_left">Kiri</string>
+    <string name="status_bar_logo_right">Kanan</string>
     <!-- Carrier Label -->
+    <string name="carrier_category">Label operator</string>
+    <string name="carrier_options">Pilih lokasi tampilan</string>
+    <string name="custom_carrier_label_title">Label operator kustom</string>
+    <string name="custom_carrier_label_explain">Mohon ketik label baru. Kosongkan untuk kembali pada label bawaan.</string>
+    <string name="custom_carrier_label_notset">Label kustom belum diatur</string>
+    <string name="show_carrier_title">Ditampilkan pada</string>
+    <string name="show_carrier_disabled">Tidak dimanapun</string>
+    <string name="show_carrier_keyguard">Hanya di layar kunci</string>
+    <string name="show_carrier_statusbar">Hanya di statusbar</string>
+    <string name="show_carrier_enabled">Layar kunci &amp; statusbar</string>
     <!-- Statusbar ticker -->
+    <string name="ticker_mode_title">Notifikasi hilang-muncul pada statusbar</string>
+    <string name="ticker_disabled">Nonaktif</string>
+    <string name="ticker_enabled">Notifikasi hilang-muncul</string>
+    <string name="ticker_media_enabled">Notifikasi dan musik kedap-kedip</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Gestur tiga jari</string>
+    <string name="three_finger_gesture_summary">Usap 3 jari untuk mengambil screenshot</string>
     <!-- Status bar clock options -->
+    <string name="status_bar_clock">Jam dan Tanggal</string>
+    <string name="status_bar_clock_summary">Atur tampilan jam dan tanggal statusbar</string>
+    <string name="clock_title_enable">Alineasi</string>
+    <string name="clock_enabled">Aktif</string>
+    <string name="clock_disabled">Nonaktif</string>
+    <string name="status_bar_clock_style_reset">Reset warna</string>
+    <string name="status_bar_show_clock_title">Tampilkan jam dan tanggal</string>
+    <string name="status_bar_clock_seconds_title">Tampilkan detik</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">Mode 24 jam diaktifkan</string>
+    <string name="enable_clock_weekday">Hari dalam minggu ini</string>
+    <string name="enable_clock_weekday_summary">Singkat nama hari di belakang jam</string>
+    <string name="right_clock">Jam di sebelah kanan</string>
+    <string name="left_clock">Jam di sebelah kiri</string>
+    <string name="dont_show">Jangan tampilkan</string>
+    <string name="clock_date_display">Tanggal</string>
+    <string name="clock_date_display_summary">Tampilkan tanggal kustom sebelum jam</string>
+    <string name="clock_date_style">Gaya tanggal</string>
+    <string name="clock_date_format">Format tanggal</string>
+    <string name="clock_date_string_edittext_title">Harus dalam format tanggal misalnya. Bulan/Hari/Tahun</string>
+    <string name="clock_date_string_edittext_summary">Masukan String</string>
+    <string name="am_pm_clock_normal">Ukuran font normal</string>
+    <string name="am_pm_clock_small">Ukuran font kecil</string>
+    <string name="am_pm_clock_none">Jangan tampilkan</string>
+    <string name="clock_date_display_none">Jangan tampilkan</string>
+    <string name="clock_date_display_small">Ukuran font kecil</string>
+    <string name="clock_date_display_normal">Ukuran font Normal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Huruf kecil</string>
+    <string name="clock_date_style_uppercase">Huruf atas</string>
+    <string name="clock_date_format_custom">Format java Kustom</string>
+    <string name="clock_date_right">Waktu dari kanan</string>
+    <string name="clock_date_left">Waktu dari kiri</string>
+    <string name="clock_date_position">Posisi tanggal</string>
     <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Tampilkan jumlah notifikasi</string>
+    <string name="status_bar_notif_count_summary">Tampilkan jumlah notifikasi tertunda</string>
     <!-- Free form -->
+    <string name="free_from">Free form Multi-window</string>
+    <string name="free_form_summary">Mode ini memungkinkan Android menampilkan aplikasi dalam mode floating window yang bisa dipindah dan diubah ukurannya sesuai kebutuhan.</string>
     <!-- Power Menu -->
+    <string name="powermenu_title">Pengaturan menu Power</string>
+    <string name="powermenu_airplane_title">Mode pesawat</string>
+    <string name="powermenu_screenshot_title">Screenshot</string>
+    <string name="powermenu_advanced_reboot_title">Mulai ulang lebih lanjut</string>
+    <string name="powermenu_reboot_title">Mulai ulang</string>
+    <string name="powermenu_screenshot">Screenshot</string>
+    <string name="powermenu_power">Power</string>
+    <string name="powermenu_restart">Mulai ulang</string>
+    <string name="powermenu_restart_recovery">Mulai ulang lebuh lanjut</string>
+    <string name="powermenu_airplane">Pesawat</string>
+    <string name="powermenu_settings">Pengaturan</string>
+    <string name="powermenu_lockdown">Kunci</string>
+    <string name="powermenu_soundpanel">Panel suara</string>
+    <string name="powermenu_users">Pengguna</string>
+    <string name="powermenu_logout">Keluar</string>
+    <string name="face_auto_unlock_title">Buka otomatis kunci wajah</string>
+    <string name="face_auto_unlock_summary">Singkirkan layar kunci setelah buka kunci wajah</string>
     <!-- Hardware keys -->
     <!-- Buttons backlight timeout -->
     <!-- Enable keys backlight-->
@@ -80,12 +199,47 @@
     <!-- Enable keys backlight-->
     <!-- HW Keys customization -->
     <!-- ANBI -->
+    <!-- navbar-->
+    <!--Power menu-->
     <!-- Hide Lockscreen clock, date, & alarm -->
     <!-- Accent picker -->
+    <string name="theme_accent_picker_default">Setelan awal</string>
     <!-- SystemUI theme -->
-    <!-- Weather - OmniJaws Settings -->
-    <!-- Lockscreen weather settings -->
+    <string name="systemui_theme_style_title">Tema SistemUI</string>
+    <string name="systemui_theme_style_auto">Otomatis (berdasarkan wallpaper)</string>
+    <string name="systemui_theme_style_light">Terang</string>
+    <string name="systemui_theme_style_dark">Gelap</string>
+    <string name="system_theme_style_black">Hitam</string>
     <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Kunci sidik jari</string>
+    <string name="fp_unlock_keystore_summary">Buka perangkat dengan sidik jari setelah mulai ulang tanpa PIN/Password/Pattern\nNote: resiko ditanggung sendiri!</string>
     <!-- Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Persentase baterai</string>
+    <string name="status_bar_battery_percentage_default">Tersembunyi</string>
+    <string name="status_bar_battery_percentage_text_next">Disebelah ikon</string>
+    <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_enable_title">Aktifkan Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Matikan beberapa pixel untuk mengurangi konsumsi daya</string>
+    <string name="smart_pixels_on_power_save_title">Aktifkan otomatis dalam mode hemat daya</string>
+    <string name="smart_pixels_on_power_save_summary">Aktifkan Smart Pixels ketika dalam mode hemat daya</string>
+    <string name="smart_pixels_percent">Persentase pixel dimatikan</string>
+    <string name="smart_pixels_info">Fitur ini tampil di atas aplikasi dan dapat menimbulkan masalah terhadap Google Pay dll.\n\nNonaktifkan sebelum menambahkan kartu pada Pay atau ketika mengaktif/nonaktifkan administrator perangkat</string>
+    <string name="smart_pixels_shift">Mencegah burn-in dengan pengalihan pixels setiap</string>
+    <string name="smart_pixels_shift_times_15s">15 detik</string>
+    <string name="smart_pixels_shift_times_30s">30 detik</string>
+    <string name="smart_pixels_shift_times_1min">1 menit</string>
+    <string name="smart_pixels_shift_times_2min">2 menit</string>
+    <string name="smart_pixels_shift_times_5min">5 menit</string>
+    <string name="smart_pixels_shift_times_10min">10 menit</string>
+    <string name="smart_pixels_shift_times_20min">20 menit</string>
+    <string name="smart_pixels_shift_times_30min">30 menit</string>
+    <string name="smart_pixels_shift_times_1h">1 jam</string>
+    <!-- Quick Settings -->
+    <!--Notify cat -->
+    <!-- Blink flashlight for incoming calls -->
+    <!-- Onehand UI mode -->
+    <!-- 4G icon -->
+    <!-- Show VoLTE icon on statusbar -->
 </resources>
