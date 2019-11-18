@@ -24,6 +24,7 @@
     <string name="navbar_title">Ajustes de barra de navegación</string>
     <string name="lockscreen_title">Ajustes de pantalla de bloqueo</string>
     <string name="buttons_title">Configuración de botones</string>
+    <string name="notifications_title">Ajuste de notificaciones</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Mostrar información de la CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
@@ -73,6 +74,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Estilo de la batería</string>
     <string name="status_bar_battery_style_port">Vertical</string>
+    <string name="status_bar_battery_style_q">Estilo Android Q</string>
     <string name="status_bar_battery_style_circle">Circular</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
@@ -236,7 +238,9 @@
     <!-- ANBI -->
     <string name="anbi_title">Toque accidental</string>
     <string name="anbi_summary">Previene la interacción con los botones de navegación mientras se está tocando la pantalla</string>
+    <!-- navbar-->
     <string name="navbar_visibility">Permitir barra de navegación</string>
+    <!--Power menu-->
     <string name="powermenu_category_visibility">Opciones de pantalla de bloqueo</string>
     <string name="powermenu_lockscreen_title">Visibilidad en la pantalla de bloqueo</string>
     <string name="powermenu_lockscreen_summary">Habilitar la capacidad para mostrar y usar el menú de apagado en la pantalla de bloqueo</string>
@@ -258,17 +262,6 @@
     <string name="systemui_theme_style_light">Claro</string>
     <string name="systemui_theme_style_dark">Oscuro</string>
     <string name="system_theme_style_black">Negro</string>
-    <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Clima</string>
-    <string name="weather_config_title">Configuración del servicio</string>
-    <string name="header_weather_title">Vista del tiempo en el encabezado</string>
-    <string name="header_weather_summary">Habilitar mostrar el tiempo en la cabecera del panel de notificaciones</string>
-    <string name="weather_icon_pack_title">Paquete de iconos de clima</string>
-    <string name="weather_icon_pack_note">Nota\u003a puede instalar nuevos paquetes de iconos desde la play store buscando \"Chronus icono\"\u003a</string>
-    <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Tiempo en la pantalla de bloqueo</string>
-    <string name="lockscreen_weather_summary">Mostrar la condición actual del tiempo y temperatura en lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">Esta configuración de la visibilidad también se aplica a la pantalla de ambiente</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Desbloqueo con huella dactilar</string>
     <string name="fp_unlock_keystore_summary">Desbloqueo con huella digital después de reiniciar el dispositivo sin PIN/contraseña/patrón\nNota: ¡bajo su propio riesgo!</string>
@@ -295,4 +288,23 @@
     <string name="smart_pixels_shift_times_20min">20 minutos</string>
     <string name="smart_pixels_shift_times_30min">30 minutos</string>
     <string name="smart_pixels_shift_times_1h">1 hora</string>
+    <!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Desactivar los accesos rápidos cuando está bloqueado</string>
+    <string name="lockscreen_qs_disabled_summary">Desactivar la expansión de los ajustes rápidos en la pantalla de bloqueo</string>
+    <!--Notify cat -->
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Parpadeo de flash en llamada</string>
+    <string name="flashlight_on_call_disabled">Desactivado</string>
+    <string name="flashlight_on_call_not_dnd">Parpadear linterna solo en modo timbre</string>
+    <string name="flashlight_on_call_dnd">Parpadear linterna solo en modo no molestar</string>
+    <string name="flashlight_on_call_always">Siempre parpadear linterna</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Activar uso de el modo de una mano</string>
+    <string name="one_hand_mode_summary">Deslizar a la izquierda o derecha en la barra de navegación para activar</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Icono 4G</string>
+    <string name="show_fourg_icon_summary">Mostrar icono de 4G en lugar de LTE</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Icono de VoLTE</string>
+    <string name="volte_icon_summary">Mostrar el icono VoLTE</string>
 </resources>
