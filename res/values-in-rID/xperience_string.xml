@@ -236,7 +236,9 @@
     <!-- ANBI -->
     <string name="anbi_title">Sentuhan tidak sengaja</string>
     <string name="anbi_summary">Cegah interaksi dengan tombol navigasi saat layar disentuh</string>
+    <!-- navbar-->
     <string name="navbar_visibility">Izinkan bilah navigasi</string>
+    <!--Power menu-->
     <string name="powermenu_category_visibility">Opsi layar kunci</string>
     <string name="powermenu_lockscreen_title">Tampilan di layar kunci</string>
     <string name="powermenu_lockscreen_summary">Aktifkan kemampuan untuk menampilkan dan menggunakan dialog menu daya saat berada di layar kunci</string>
@@ -258,17 +260,6 @@
     <string name="systemui_theme_style_light">Terang</string>
     <string name="systemui_theme_style_dark">Gelap</string>
     <string name="system_theme_style_black">Hitam</string>
-    <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Cuaca</string>
-    <string name="weather_config_title">Pengaturan layanan</string>
-    <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>
-    <string name="header_weather_summary">Aktifkan tampilan cuaca tajuk panel pemberitahuan</string>
-    <string name="weather_icon_pack_title">Keadaan paket ikon</string>
-    <string name="weather_icon_pack_note">Catatan\u003a anda dapat menginstal paket ikon baru dari play store dengan mencari \"Chronus ikon\"</string>
-    <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Cuaca di Layar Kunci</string>
-    <string name="lockscreen_weather_summary">Tampilkan kondisi cuaca dan suhu saat ini di layar kunci</string>
-    <string name="lockscreen_items_aod_info_title">Konfigurasi visibilitas ini juga berlaku untuk tampilan ambien</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Membuka kunci sidik jari</string>
     <string name="fp_unlock_keystore_summary">Membuka perangkat dengan sidik jari setelah menyala tanpa Kata sandi/PIN/Pola\nCatatan: resiko Anda sendiri!</string>
@@ -295,4 +286,10 @@
     <string name="smart_pixels_shift_times_20min">20 menit</string>
     <string name="smart_pixels_shift_times_30min">30 menit</string>
     <string name="smart_pixels_shift_times_1h">1 jam</string>
+    <!-- Quick Settings -->
+    <!--Notify cat -->
+    <!-- Blink flashlight for incoming calls -->
+    <!-- Onehand UI mode -->
+    <!-- 4G icon -->
+    <!-- Show VoLTE icon on statusbar -->
 </resources>
