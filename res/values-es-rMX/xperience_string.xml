@@ -136,7 +136,7 @@
     <string name="custom_carrier_label_explain">Por favor, introduzca una nueva etiqueta. Déjala en blanco para volver a la etiqueta por defecto.</string>
     <string name="custom_carrier_label_notset">Etiqueta personalizada actualmente no establecida</string>
     <string name="show_carrier_title">Se muestra en</string>
-    <string name="show_carrier_disabled">Oculto</string>
+    <string name="show_carrier_disabled">Ninguna parte</string>
     <string name="show_carrier_keyguard">Sólo en la pantalla de bloqueo</string>
     <string name="show_carrier_statusbar">Sólo en la barra de estado</string>
     <string name="show_carrier_enabled">Pantalla de bloqueo y barra de estado</string>
@@ -324,19 +324,19 @@
     <string name="volte_icon_summary">Mostrar el ícono VoLTE</string>
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Control del cursor usando teclas de volumen</string>
-    <string name="volume_key_cursor_control_off">desactivado</string>
-    <string name="volume_key_cursor_control_on">Volumen arriba/abajo mueve el cursor de izquierda/derecha</string>
-    <string name="volume_key_cursor_control_on_reverse">Volumen arriba/abajo mueve el cursor de derecha/izquierda</string>
-    <string name="notification_light_settings">Luces de notificación</string>
+    <string name="volume_key_cursor_control_title">Control del cursor con teclas de volumen</string>
+    <string name="volume_key_cursor_control_off">Desactivado</string>
+    <string name="volume_key_cursor_control_on">Volumen arriba/abajo mueve el cursor hacia la izquierda/derecha</string>
+    <string name="volume_key_cursor_control_on_reverse">Volumen arriba/abajo mueve el cursor hacia la derecha/izquierda</string>
+    <string name="notification_light_settings">Led de notificaciones</string>
     <!-- Donators -->
-    <string name="donators_title">Lista de donadores</string>
+    <string name="donators_title">Lista de donantes</string>
     <string name="donators_summary">Gracias a todas las personas que han decidido apoyar mi pequeño proyecto a lo largo de los años.</string>
-    <string name="donators_error">Imposible listado de donadores.</string>
+    <string name="donators_error">No se puede cargar el texto de los donantes</string>
     <!-- Changelog -->
     <string name="changelog_title">Registro de cambios</string>
-    <string name="changelog_summary">Desde la ultima actualización.</string>
-    <string name="changelog_error">Imposible leer lista de cambios.</string>
+    <string name="changelog_summary">Desde la última actualización</string>
+    <string name="changelog_error">No se pudo cargar la lista de cambios.</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Control deslizante de brillo</string>
     <string name="qs_show_brightness_summary">Mostrar la barra de brillo en el panel de ajustes rápidos</string>

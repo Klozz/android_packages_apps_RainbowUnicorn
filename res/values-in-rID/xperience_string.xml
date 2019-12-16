@@ -55,8 +55,6 @@
     <string name="tuner_doze_always_on">Selalu Aktif</string>
     <!-- Show navbar -->
     <string name="navigation_bar_enabled_title">Aktifkan</string>
-    <string name="navbar_invert_layout_title">Balikkan tata letak</string>
-    <string name="hardware_keys_volume_keys_title">Volume rocker</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Info pengisian daya pada kunci layar</string>
     <string name="lockscreen_battery_info_summary">Menampilkan arus maksimum tegangan dan suhu baterai pada saat mengisi daya di layar kunci</string>
@@ -93,6 +91,8 @@
     <string name="battery_percentage_estimate">Diaktifkan (perkiraan)</string>
     <!--XPerience Active Display -->
     <string name="ActiveDisplay_title">XPerience ™ Active Display</string>
+    <!-- Battery mode -->
+    <!--XPerience Active Display -->
     <string name="ActiveDisplay_summary">Tampilan Aktif adalah cara baru untuk penanganan pemberitahuan di Android.</string>
     <!-- Ambient music -->
     <string name="force_ambient_for_media_pref_title">Sedang Diputar</string>
@@ -100,7 +100,6 @@
     <string name="ambient_ticker_footer">Fitur ini memungkinkan kemampuan untuk menunjukkan informasi trek musik saat ini pada layar kunci dengan atau tanpa tampilan Ambien diaktifkan.\n\n Anda dapat memilih dari dua tata letak, normal dan minimal. Fitur ini mengambil keuntungan dari tampilan Ambient, tidak tergantung di atasnya. Ini dapat disebabkan tanpa mengaktifkan tampilan Ambient dengan menggunakan opsi tampilan.\n\nNormal (paksa) termasuk jam layar kunci, tanggal dan informasi musik.\n\nMinimal pemandangan hanya memuat informasi musik di tengah layar.</string>
     <string name="force_ambient_for_media_title">Pilih tata letak</string>
     <string name="force_ambient_for_media_off">Nonaktif</string>
-    <string name="force_ambient_for_media_on">Normal</string>
     <string name="force_ambient_for_media_on_forced">Normal (paksa)</string>
     <string name="force_ambient_for_media_on_forced_clean">Minimal (paksa)</string>
     <!-- Pocket judge -->
@@ -124,7 +123,6 @@
     <string name="show_4g_title">Tampilkan 4G</string>
     <string name="show_4g_summary">Tampilkan 4G dan bukan LTE di ikon sinyal</string>
     <!-- Statusbar logo -->
-    <string name="status_bar_logo_title">XPerience Shield</string>
     <string name="status_bar_logo_dialog_title">Posisi logo XPerience Shield</string>
     <string name="status_bar_logo_disabled">Dinonaktifkan</string>
     <string name="status_bar_logo_left">Kiri</string>
@@ -157,7 +155,6 @@
     <string name="status_bar_clock_style_reset">Atur ulang warna</string>
     <string name="status_bar_show_clock_title">Tampilkan jam dan tanggal</string>
     <string name="status_bar_clock_seconds_title">Tampilkan detik</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">Waktu 24-jam diaktifkan</string>
     <string name="enable_clock_weekday">Hari dalam seminggu</string>
     <string name="enable_clock_weekday_summary">Singkatan hari dalam seminggu sebelum waktunya</string>
@@ -176,10 +173,8 @@
     <string name="clock_date_display_none">Jangan Tampilkan</string>
     <string name="clock_date_display_small">Ukuran huruf kecil</string>
     <string name="clock_date_display_normal">Ukuran huruf normal</string>
-    <string name="clock_date_style_normal">Normal</string>
     <string name="clock_date_style_lowercase">Huruf kecil</string>
     <string name="clock_date_style_uppercase">Huruf besar</string>
-    <string name="clock_date_format_custom">Format java khusus</string>
     <string name="clock_date_right">Sebelah kanan jam</string>
     <string name="clock_date_left">Sebelah kiri jam</string>
     <string name="clock_date_position">Letak tanggal</string>
@@ -275,8 +270,6 @@
     <string name="systemui_theme_style_light">Terang</string>
     <string name="systemui_theme_style_dark">Gelap</string>
     <string name="system_theme_style_black">Hitam</string>
-    <string name="system_theme_style_lunar">Lunar</string>
-    <string name="system_theme_style_ilta">malam</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Membuka kunci sidik jari</string>
     <string name="fp_unlock_keystore_summary">Membuka perangkat dengan sidik jari setelah menyala tanpa Kata sandi/PIN/Pola\nCatatan: resiko Anda sendiri!</string>
@@ -286,7 +279,6 @@
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
     <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_title">Piksel Cerdas</string>
     <string name="smart_pixels_enable_title">Hidupkan Smart Pixels</string>
     <string name="smart_pixels_enable_summary">Matikan pixel untuk mengurangi konsumsi daya</string>
     <string name="smart_pixels_on_power_save_title">Hidupkan-otomatis pada penghemat baterai</string>
@@ -304,67 +296,15 @@
     <string name="smart_pixels_shift_times_30min">30 menit</string>
     <string name="smart_pixels_shift_times_1h">1 jam</string>
     <!-- Quick Settings -->
-    <string name="lockscreen_qs_disabled_title">Nonaktifkan pengaturan cepat saat dikunci</string>
-    <string name="lockscreen_qs_disabled_summary">Nonaktifkan memperluas pengaturan cepat pada layar kunci aman</string>
     <!--Notify cat -->
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Berkedip Senter saat panggilan</string>
-    <string name="flashlight_on_call_disabled">Dengan disabilitas</string>
-    <string name="flashlight_on_call_not_dnd">Kedipkan senter hanya dalam mode dering</string>
-    <string name="flashlight_on_call_dnd">Kedipkan senter hanya dalam mode DND</string>
-    <string name="flashlight_on_call_always">Selalu berkedip senter</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Aktifkan menggunakan mode satu tangan</string>
-    <string name="one_hand_mode_summary">Izinkan menggesekkan ke kanan atau kiri pada navbar untuk mengaktifkan</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Ikon 4G</string>
-    <string name="show_fourg_icon_summary">Tampilkan ikon 4G dalam ikon sinyal, bukan LTE</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">Ikon VoLTE</string>
-    <string name="volte_icon_summary">Tampilkan ikon VoLTE</string>
     <!-- Language options - Volume rocker cursor control -->
-    <string name="cursor_section_header">Kursor</string>
-    <string name="volume_key_cursor_control_title">Kontrol kursor tombol volume</string>
-    <string name="volume_key_cursor_control_off">Dengan disabilitas</string>
-    <string name="volume_key_cursor_control_on">Volume naik/turun menggerakkan kursor ke kiri/kanan</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume naik/turun menggerakkan kursor ke kanan/kiri</string>
-    <string name="notification_light_settings">Lampu pemberitahuan</string>
     <!-- Donators -->
-    <string name="donators_title">Daftar Donatur</string>
-    <string name="donators_summary">Terima kasih kepada semua orang yang telah memutuskan untuk mendukung proyek kecil saya selama ini.</string>
-    <string name="donators_error">Tidak dapat memuat daftar donatur</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Sejak pembaruan terakhir</string>
-    <string name="changelog_error">Tidak dapat memuat changelog.</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Slider kecerahan</string>
-    <string name="qs_show_brightness_summary">Tampilkan slider kecerahan di panel pengaturan cepat</string>
-    <string name="qs_brightness_position_bottom_title">Slider kecerahan di bagian bawah</string>
-    <string name="qs_brightness_position_bottom_summary">Tampilkan slider kecerahan di pengaturan cepat bawah</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Visualizer musik</string>
-    <string name="lockscreen_visualizer_enable_summary">Tampilkan bilah visualizer saat memutar musik</string>
-    <string name="lockscreen_autocolor_title">Warna otomatis</string>
-    <string name="lockscreen_autocolor_summary">Sinkronkan warna dengan latar belakang layar penguncian</string>
-    <string name="lockscreen_autocolor_lavalamp">Membutuhkan lampu lava dinonaktifkan</string>
-    <string name="lockscreen_lavalamp_title">Lampu lava</string>
-    <string name="lockscreen_lavalamp_summary">Gunakan animasi perpaduan gaya warna lampu lava yang halus</string>
-    <string name="lockscreen_lavalamp_speed_title">Interval campuran warna</string>
-    <string name="lockscreen_solid_lines_category">Garis Padat</string>
-    <string name="lockscreen_solid_units_count_title">Baris dihitung</string>
-    <string name="lockscreen_solid_fudge_factor_title">Tingkat kewarasan</string>
-    <string name="lockscreen_solid_units_opacity_title">Keburaman garis</string>
     <!-- Display : Rotation  -->
-    <string name="accelerometer_title">Layar putar otomatis</string>
-    <string name="display_rotation_title">Pengaturan rotasi</string>
-    <string name="display_rotation_enabled">Rotasi otomatis diaktifkan</string>
-    <string name="display_rotation_disabled">Rotasi otomatis dinonaktifkan</string>
-    <string name="display_rotation_unit">derajat</string>
-    <string name="display_lockscreen_rotation_title">Putar layar kunci</string>
-    <string name="display_rotation_category_title">Mode rotasi</string>
-    <string name="display_rotation_0_title">0 derajat</string>
-    <string name="display_rotation_90_title">90 derajat</string>
-    <string name="display_rotation_180_title">180 derajat</string>
-    <string name="display_rotation_270_title">270 derajat</string>
 </resources>
