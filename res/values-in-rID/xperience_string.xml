@@ -24,6 +24,7 @@
     <string name="navbar_title">Pengaturan Nabvar</string>
     <string name="lockscreen_title">Pengaturan Kunci Layar</string>
     <string name="buttons_title">Pengaturan Tombol</string>
+    <string name="notifications_title">Pengaturan pemberitahuan</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Tampilkan info CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
@@ -73,6 +74,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
     <string name="status_bar_battery_style_port">Tegak</string>
+    <string name="status_bar_battery_style_q">Gaya q</string>
     <string name="status_bar_battery_style_circle">Lingkaran</string>
     <string name="status_bar_battery_style_text">Teks</string>
     <string name="status_bar_battery_style_hidden">Tersembunyi</string>
@@ -287,9 +289,22 @@
     <string name="smart_pixels_shift_times_30min">30 menit</string>
     <string name="smart_pixels_shift_times_1h">1 jam</string>
     <!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Nonaktifkan pengaturan cepat saat dikunci</string>
+    <string name="lockscreen_qs_disabled_summary">Nonaktifkan memperluas pengaturan cepat pada layar kunci aman</string>
     <!--Notify cat -->
     <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Berkedip Senter saat panggilan</string>
+    <string name="flashlight_on_call_disabled">Dengan disabilitas</string>
+    <string name="flashlight_on_call_not_dnd">Kedipkan senter hanya dalam mode dering</string>
+    <string name="flashlight_on_call_dnd">Kedipkan senter hanya dalam mode DND</string>
+    <string name="flashlight_on_call_always">Selalu berkedip senter</string>
     <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Aktifkan menggunakan mode satu tangan</string>
+    <string name="one_hand_mode_summary">Izinkan menggesekkan ke kanan atau kiri pada navbar untuk mengaktifkan</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ikon 4G</string>
+    <string name="show_fourg_icon_summary">Tampilkan ikon 4G dalam ikon sinyal, bukan LTE</string>
     <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Ikon VoLTE</string>
+    <string name="volte_icon_summary">Tampilkan ikon VoLTE</string>
 </resources>
