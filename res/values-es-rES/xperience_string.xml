@@ -284,7 +284,7 @@
     <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <!--<string name="status_bar_battery_percentage_text_inside">Inside the icon</string>-->
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Píxeles inteligentes</string>
     <string name="smart_pixels_enable_title">Habilitar píxeles inteligentes</string>
@@ -382,4 +382,5 @@
     <string name="set">Aplicar</string>
     <string name="color_default">Por defecto</string>
     <string name="default_string">Por defecto</string>
+    <!-- Ambient visualizer -->
 </resources>
