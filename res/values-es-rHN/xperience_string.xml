@@ -388,4 +388,6 @@
     <!-- Ambient visualizer -->
     <string name="ambient_visualizer_title">Mostrar en pantalla ambiente</string>
     <string name="ambient_visualizer_summary">Mostrar las barras de visualización en la pantalla ambiente</string>
+    <!-- QS header image -->
+    <!-- Old mobile type icons -->
 </resources>
