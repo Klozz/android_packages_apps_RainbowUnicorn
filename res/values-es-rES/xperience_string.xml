@@ -104,6 +104,7 @@
     <string name="force_ambient_for_media_on_forced_clean">Minimalista (forzado)</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
     <!-- Volume category -->
     <string name="volume_category">Control de volumen</string>
     <!-- Volume rocker music control -->
@@ -282,6 +283,7 @@
     <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Píxeles inteligentes</string>
     <string name="smart_pixels_enable_title">Habilitar píxeles inteligentes</string>
