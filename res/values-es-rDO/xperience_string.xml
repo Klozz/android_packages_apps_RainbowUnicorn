@@ -15,7 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_firmware_version">Versión de XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_build_code">Código XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canal</string>
     <!-- ANBI -->
@@ -146,6 +148,8 @@
     <string name="powermenu_users">Usuarios</string>
     <string name="powermenu_logout">Cerrar sesión</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN o contraseña</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Botón de borrar todo</string>
     <string name="show_clear_all_recents_button_summary">Mostrar botón de limpieza de aplicaciones recientes</string>
@@ -157,6 +161,11 @@
     <string name="recents_clear_all_location_bottom_left">Inferior izquierda</string>
     <string name="recents_clear_all_location_bottom_center">Centro inferior</string>
     <!--Reset feature -->
+    <string name="reset_all_settings">RESETEAR TODOS</string>
+    <string name="reset_selected_settings">RESETEAR SELECCIONADOS</string>
+    <string name="reset_settings_title">Preferencias de características</string>
+    <string name="reset_settings_summary">Restablecer preferencias de características de XPerience</string>
+    <string name="keywords_settings_reset">restablecer</string>
     <!-- Settings Titles-->
     <string name="xperience_settings_title">Configuración de XPerience™</string>
     <string name="statusbar_title">Barra de estado </string>
@@ -251,6 +260,7 @@
     <string name="ActiveDisplay_summary">Pantalla activa es una nueva forma de manejo de notificaciones en Android.</string>
     <!--XPerience custom settings -->
     <string name="xperience_settings_title">Configuración de XPerience™</string>
+    <string name="xperience_settings_summary">Personalízala con funcionalidades</string>
     <!-- navbar-->
     <string name="navbar_visibility">Permitir barra de navegación</string>
     <!--Power menu-->
@@ -405,11 +415,49 @@
     <string name="use_old_mobiletype_title">Icono pequeño de tipo de red móvil</string>
     <string name="use_old_mobiletype_summary">Muestra el icono del tipo de señal en la parte superior del indicador de señal</string>
     <!-- QS SystemInfo -->
+    <string name="qs_system_info_title">Información del sistema</string>
+    <string name="qs_system_info_off">Desactivado</string>
+    <string name="qs_system_info_cpu_temp">Temperatura de la CPU</string>
+    <string name="qs_system_info_battery_temp">Temperatura de la batería</string>
+    <string name="qs_system_info_gpu_clock">Frecuencia de la GPU</string>
+    <string name="qs_system_info_gpu_busy">Uso de la GPU</string>
     <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Animación de menú de apagado</string>
+    <string name="power_menu_animation_summary">Cambiar la animación de entrada/salida del menú de apagado</string>
+    <string name="power_menu_animation_dialog_title">Seleccionar animación del menú de apagado</string>
+    <string name="power_menu_animation_aosp">AOSP (predeterminada)</string>
+    <string name="power_menu_animation_bottom">Fondo</string>
+    <string name="power_menu_animation_top">Superior</string>
+    <string name="power_menu_animation_xylon">Fly</string>
+    <string name="power_menu_animation_slide">Deslizar</string>
+    <string name="power_menu_animation_turn">Turn</string>
+    <string name="power_menu_animation_fly">Resplandor</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Traslúcida (desde la parte superior)</string>
+    <string name="power_menu_animation_translucent_bottom">Translúcido (desde la parte inferior)</string>
     <string name="power_menu_animation_rotate">Rotar</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
     <!-- SELinux status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Inhabilitado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reproducción adaptativa</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none_summary">Desactivado</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
 </resources>
