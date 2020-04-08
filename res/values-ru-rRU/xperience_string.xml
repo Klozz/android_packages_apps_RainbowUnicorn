@@ -15,19 +15,69 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_firmware_version">Версия XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_build_code">Кодовое имя XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Канал</string>
     <!-- ANBI -->
+    <string name="anbi_title">Защита от случайных касаний</string>
+    <string name="anbi_summary">Предотвращение нажатия кнопок навигации при касании экрана</string>
     <!-- Battery Styles -->
+    <string name="battery_style_title">Стиль значка батареи</string>
+    <string name="battery_style_percent_title">Процент заряда батареи</string>
+    <string name="battery_style_land">Горизонтальный</string>
+    <string name="battery_style_dotted_circle">Круг из точек</string>
+    <string name="battery_style_big_circle">Большой круг</string>
+    <string name="battery_style_big_dotted_circle">Большой пунктирный круг</string>
+    <string name="show_battery_percent_summary">Показывать уровень заряда батареи рядом со значком</string>
+    <string name="battery_style_category_title">Значок батареи</string>
+    <string name="battery_percent_none">Не показывать</string>
+    <string name="battery_percent_outside">Показывать рядом со значком</string>
+    <string name="battery_percent_inside">Показывать внутри значка</string>
     <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
+    <string name="status_bar_battery_style_port">Вертикальный</string>
+    <string name="status_bar_battery_style_pa_circle">Круг PA</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Не показывать</string>
+    <string name="status_bar_battery_text_charging_title">Процент заряда батареи при зарядке</string>
+    <string name="status_bar_battery_text_charging_summary">Всегда отображать процент заряда батареи во время зарядки</string>
     <!-- Battery mode -->
+    <string name="battery_percentage_title">Процент заряда батареи</string>
+    <string name="battery_percentage_off">Выключено</string>
+    <string name="battery_percentage_next">Включено</string>
+    <string name="battery_percentage_inside">Включен (внутри значка)</string>
+    <string name="battery_percentage_estimate">Включен (ожидаемое время)</string>
     <!-- Carrier Label -->
+    <string name="carrier_category">Название оператора</string>
+    <string name="carrier_options">Выбрать место отображения</string>
+    <string name="custom_carrier_label_title">Своё имя оператора</string>
+    <string name="custom_carrier_label_explain">Введите новое имя. Для возрата к имени по умолчанию оставьте строку пустой.</string>
+    <string name="custom_carrier_label_notset">Пользовательское название оператора не установлено</string>
+    <string name="show_carrier_title">Отображать</string>
+    <string name="show_carrier_disabled">Нигде</string>
+    <string name="show_carrier_keyguard">Только на экране блокировки</string>
+    <string name="show_carrier_statusbar">Только в строке состояния</string>
+    <string name="show_carrier_enabled">На экране блокировки и в строке состояния</string>
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь верхней части или в области ярлыков экрана блокировки, чтобы отправить устройство в режим сна</string>
     <!-- Face unlock deprecated on Q -->
+    <string name="face_auto_unlock_title">Автоматическая разблокировка лицом</string>
+    <string name="face_auto_unlock_summary">Убирать экран блокировки после разблокировки по лицу</string>
     <!-- Free form -->
+    <string name="free_form_summary">Этот режим позволяет Android отображать приложения как плавающие окна, которые могут быть перемещены и изменены по желанию пользователя.</string>
     <!-- Hardware buttons -->
+    <string name="hardware_keys_volume_keys_title">Кнопки регулировки громкости</string>
     <!-- Hardware keys -->
+    <string name="hardware_keys_category">Физические клавиши</string>
     <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Длительность подсветки кнопок</string>
+    <string name="backlight_timeout_on">Включено всегда</string>
+    <string name="backlight_timeout_3s">3 секунды</string>
+    <string name="backlight_timeout_default">5 секунд (по умолчанию)</string>
     <!-- Enable keys backlight-->
     <!-- Enable keys backlight-->
     <!-- Enable keys backlight-->
@@ -39,8 +89,19 @@
     <!-- Notification count -->
     <!-- Pocket judge -->
     <!-- Power Menu -->
+    <string name="powermenu_settings">Настройки</string>
+    <string name="powermenu_lockdown">Заблокировать</string>
+    <string name="powermenu_soundpanel">Звуковая панель</string>
+    <string name="powermenu_users">Пользователи</string>
+    <string name="powermenu_logout">Выйти</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного пароля или PIN-кода</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Кнопка «Очистить всё»</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку «Очистить всё»</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
+    <string name="recents_clear_all_location_top_right">Вверху справа</string>
     <!--Reset feature -->
     <!-- Settings Titles-->
     <!-- Show navbar -->
