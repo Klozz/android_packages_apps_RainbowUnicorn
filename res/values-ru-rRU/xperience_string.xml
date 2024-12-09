@@ -39,6 +39,7 @@
     <string name="status_bar_battery_style_title">Стиль значка батареи</string>
     <string name="status_bar_battery_style_port">Вертикальный</string>
     <string name="status_bar_battery_style_pa_circle">Круг PA</string>
+    <string name="status_bar_battery_style_cm_circle">Круг CM</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Не показывать</string>
@@ -160,6 +161,7 @@
     <!--Reset feature -->
     <string name="reset_all_settings">СБРОСИТЬ ВСЁ</string>
     <string name="reset_selected_settings">СБРОСИТЬ ВЫБРАННОЕ</string>
+    <string name="reset_settings_title">Предпочитаемые настройки</string>
     <string name="reset_settings_summary">Сбросить настройки XPerience</string>
     <string name="keywords_settings_reset">сброс</string>
     <!-- Settings Titles-->
@@ -420,6 +422,8 @@
     <string name="power_menu_animation_summary">Изменить анимацию входа/выхода меню питания</string>
     <string name="power_menu_animation_dialog_title">Выбор анимации меню питания</string>
     <string name="power_menu_animation_aosp">AOSP (по умолчанию)</string>
+    <string name="power_menu_animation_bottom">Снизу</string>
+    <string name="power_menu_animation_top">Сверху</string>
     <string name="power_menu_animation_xylon">Полет</string>
     <string name="power_menu_animation_slide">Слайдер</string>
     <string name="power_menu_animation_turn">Поворот</string>
@@ -436,6 +440,7 @@
     <!-- SELinux status -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключено</string>
+    <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
@@ -444,7 +449,11 @@
     <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Вкл (30 секунд)</string>
     <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Вкл (1 минута)</string>
     <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Вкл (2 минуты)</string>
     <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Вкл (5 минут)</string>
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
 </resources>
