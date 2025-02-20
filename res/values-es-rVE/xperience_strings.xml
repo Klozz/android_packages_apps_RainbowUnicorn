@@ -14,9 +14,10 @@
     <!-- App Title -->
     <!-- Categories -->
     <string name="misc_title">varios</string>
-    <string name="misc_summary">falsificación, controles de volumen</string>
+    <string name="misc_summary">falsificación, animaciones</string>
     <string name="statusbar_title">Barra de estado</string>
     <string name="statusbar_summary">Reloj, operador, iconos de estado</string>
+    <!-- Depth Wallpaper -->
     <!-- General strings -->
     <string name="ok">Aceptar</string>
     <string name="reset">Restablecer</string>
@@ -27,7 +28,6 @@
     <!-- Units -->
     <string name="unit_seconds">segundos</string>
     <string name="unit_milliseconds">milisegundos</string>
-    <string name="unit_pixels">dp</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Predeterminado</string>
@@ -48,6 +48,7 @@
     <string name="battery_style_title">Estilos del icono de batería</string>
     <string name="battery_style_port">Vertical</string>
     <string name="battery_style_circle">Circular</string>
+    <string name="battery_style_pa_circle">Círculo ParanoidAndroid</string>
     <string name="battery_style_landscape">Horizontal</string>
     <string name="battery_style_landscape_reversed">Apaisado (invertido)</string>
     <string name="battery_style_text">Texto</string>
@@ -68,4 +69,6 @@
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Iconos coloreados</string>
     <string name="statusbar_colored_icons_summary">Utilizar iconos de aplicación adecuados para los iconos de notificación en la barra de estado</string>
+    <!-- Game Space -->
+    <!-- Per-app volume -->
 </resources>
