@@ -95,4 +95,10 @@
     <string name="app_volume_title">Control de volumen por aplicación</string>
     <string name="app_volume_summary">Mostrar el botón de volumen por aplicación en el diálogo de volumen</string>
     <!-- Themes -->
+    <string name="themes_icons_category">Íconos</string>
+    <string name="themes_animations_category">Animaciones</string>
+    <string name="themes_udfps_animation_title">Usar animación UDFPS</string>
+    <string name="themes_udfps_animation_summary">Establecer estilo de animación UDFPS</string>
+    <string name="themes_udfps_icon_title">Icono de UDFPS</string>
+    <string name="themes_udfps_icon_summary">Establece el estilo del icono de UDFPS</string>
 </resources>
