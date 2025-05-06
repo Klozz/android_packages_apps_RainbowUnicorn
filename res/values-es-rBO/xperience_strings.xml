@@ -14,7 +14,7 @@
     <!-- App Title -->
     <!-- Categories -->
     <string name="misc_title">varios</string>
-    <string name="misc_summary">falsificación, controles de volumen</string>
+    <string name="misc_summary">falsificación, animaciones</string>
     <string name="statusbar_title">Barra de estado</string>
     <string name="statusbar_summary">Reloj, operador, iconos de estado</string>
     <!-- General strings -->
@@ -27,7 +27,6 @@
     <!-- Units -->
     <string name="unit_seconds">segundos</string>
     <string name="unit_milliseconds">milisegundos</string>
-    <string name="unit_pixels">dp</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Predeterminado</string>

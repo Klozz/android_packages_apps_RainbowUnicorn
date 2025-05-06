@@ -27,7 +27,6 @@
     <!-- Units -->
     <string name="unit_seconds">segundos</string>
     <string name="unit_milliseconds">milisegundos</string>
-    <string name="unit_pixels">dp</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Predeterminado</string>
