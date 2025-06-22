@@ -102,4 +102,6 @@
     <string name="themes_udfps_icon_title">Icono de UDFPS</string>
     <string name="themes_udfps_icon_summary">Establece el estilo del icono de UDFPS</string>
     <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Ajustes rápidos</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permitir cambiar la configuración rápida en la pantalla de bloqueo</string>
 </resources>
