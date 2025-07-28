@@ -169,20 +169,10 @@
     <string name="compact_progress_mode_summary">Utiliza un indicador circular compacto para acciones en curso</string>
     <string name="show_media_progress_title">Mostrar el progreso multimedia</string>
     <string name="show_media_progress_summary">Muestra el progreso de la reproducción multimedia en la barra de estado</string>
-    <string name="progress_footer_text">\"La barra de progreso de la barra de estado proporciona actualizaciones en tiempo real tanto para la reproducción multimedia como para las descargas/cargas activas.
- 
-     - 🎵  Progreso multimedia:
-     - Muestra el progreso de la reproducción de música y vídeo cuando se está reproduciendo.
-     - Un solo toque abre los controles de reproducción (pista anterior, siguiente).
-     - Un doble toque activa la reproducción/pausa.
-     - Deslizando a la izquierda se salta a la pista anterior.
-     - Desliza el dedo hacia la derecha para ir a la pista siguiente.
-     - Una pulsación larga abre la aplicación multimedia. 
- 
-     - 📥 Progreso de descarga/carga:
-     - Muestra el progreso de las descargas y subidas en curso.
-     - Se oculta automáticamente cuando no se detectan transferencias activas.
-     - Un solo toque abre la app responsable de la descarga.
- 
-     La barra de progreso cambia dinámicamente entre los estados multimedia y de descarga, para que siempre tengas la información más relevante de un vistazo.\"     </string>
+    <!-- Bluetooth -->
+    <!-- Freeform launch mode -->
+    <!-- Network traffic -->
+    <string name="network_traffic_location_disable">Desactivado</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar las flechas del indicador de tráfico de red</string>
 </resources>
