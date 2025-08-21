@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 VoltageOS
+<!-- Copyright (C) 2025 The XPerience Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -13,7 +16,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
     <!-- Categories -->
-    <string name="misc_title">varios</string>
     <string name="misc_summary">falsificación, animaciones</string>
     <string name="statusbar_title">Barra de estado</string>
     <string name="statusbar_summary">Reloj, operador, iconos de estado</string>
@@ -40,35 +42,13 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Icono 4G</string>
     <string name="show_fourg_icon_summary">Mostrar icono de 4G en lugar de LTE</string>
-    <!-- Status bar - Battery -->
-    <string name="status_bar_battery_title">Indicador de batería</string>
-    <string name="battery_settings_title">Indicador de batería</string>
+    <!-- Battery customizations -->
     <string name="battery_settings_summary">Controla el comportamiento y el estilo del icono de la batería en la barra de estado</string>
     <string name="battery_style_title">Estilos del icono de batería</string>
     <string name="battery_style_port">Vertical</string>
     <string name="battery_style_circle">Circular</string>
-    <string name="battery_style_pa_circle">Círculo ParanoidAndroid</string>
     <string name="battery_style_landscape">Horizontal</string>
     <string name="battery_style_landscape_reversed">Apaisado (invertido)</string>
-    <string name="battery_style_icon_landscape_origami">Origami</string>
-    <string name="battery_style_icon_landscape_miui_pill">Píldora MIUI</string>
-    <string name="battery_style_icon_rlandscape_style_a">Ícono horizontal estilo A (Derecha)</string>
-    <string name="battery_style_icon_landscape_style_a">Ícono horizontal estilo A (Izquierda)</string>
-    <string name="battery_style_icon_rlandscape_style_b">Ícono horizontal estilo B (Derecha)</string>
-    <string name="battery_style_icon_landscape_style_b">Ícono horizontal estilo B (Izquierda)</string>
-    <string name="battery_style_icon_landscape_pill">Vertical Mx</string>
-    <string name="battery_style_icon_landscape_line">Lorn</string>
-    <string name="battery_style_icon_landscape_musku">Vertical iOS</string>
-    <string name="battery_style_icon_landscape_signal">Horizontal Airoo</string>
-    <string name="battery_style_icon_landscape_buddy">Cápsula horizontal</string>
-    <string name="battery_style_icon_land_a">Simple</string>
-    <string name="battery_style_icon_land_b">NeNine</string>
-    <string name="battery_style_icon_land_c">ColorOS</string>
-    <string name="battery_style_icon_land_d">Love</string>
-    <string name="battery_style_icon_land_j">Strip</string>
-    <string name="battery_style_icon_land_m">IOS Outline</string>
-    <string name="battery_style_icon_land_n">Regla</string>
-    <string name="battery_style_icon_land_o">Windows</string>
     <string name="battery_style_text">Texto</string>
     <string name="battery_percent_title">Mostrar porcentaje</string>
     <string name="battery_percent_summary">Mostrar siempre el porcentaje de batería con el icono</string>
@@ -76,6 +56,7 @@
     <string name="battery_percent_inside_summary">Mostrar porcentaje dentro del icono</string>
     <string name="show_battery_percent_charging_title">Mostrar porcentaje al cargar</string>
     <string name="show_battery_percent_charging_summary">Forzar mostrar el porcentaje al lado del icono al cargar</string>
+    <!-- Battery saver -->
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animación al apagar pantalla</string>
     <string name="screen_off_animation_default">Predeterminado</string>
@@ -169,27 +150,10 @@
     <string name="compact_progress_mode_summary">Utiliza un indicador circular compacto para acciones en curso</string>
     <string name="show_media_progress_title">Mostrar el progreso multimedia</string>
     <string name="show_media_progress_summary">Muestra el progreso de la reproducción multimedia en la barra de estado</string>
-    <string name="progress_footer_text">\"La barra de progreso de la barra de estado proporciona actualizaciones en tiempo real tanto para la reproducción multimedia como para las descargas/cargas activas.
- 
-     - 🎵  Progreso multimedia:
-     - Muestra el progreso de la reproducción de música y vídeo cuando se está reproduciendo.
-     - Un solo toque abre los controles de reproducción (pista anterior, siguiente).
-     - Un doble toque activa la reproducción/pausa.
-     - Deslizando a la izquierda se salta a la pista anterior.
-     - Desliza el dedo hacia la derecha para ir a la pista siguiente.
-     - Una pulsación larga abre la aplicación multimedia. 
- 
-     - 📥 Progreso de descarga/carga:
-     - Muestra el progreso de las descargas y subidas en curso.
-     - Se oculta automáticamente cuando no se detectan transferencias activas.
-     - Un solo toque abre la app responsable de la descarga.
- 
-     La barra de progreso cambia dinámicamente entre los estados multimedia y de descarga, para que siempre tengas la información más relevante de un vistazo.\"     </string>
     <!-- Bluetooth -->
     <string name="status_bar_bluetooth_battery_title">Estado de la batería del dispositivo Bluetooth</string>
     <string name="status_bar_bluetooth_battery_summary">Muestra el nivel de batería de los dispositivos bluetooth conectados, si está disponible</string>
     <!-- Freeform launch mode -->
-    <string name="freeform_launch_mode_title">Modo de lanzamiento libre (FreeForm)</string>
     <string name="freeform_launch_mode_1">AOSP nativo</string>
     <string name="freeform_launch_mode_2">LMO Libre Formato</string>
     <!-- Network traffic -->
