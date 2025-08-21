@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 VoltageOS
+<!-- Copyright (C) 2025 The XPerience Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,7 +18,7 @@
     <string name="title" translatable="false">Rainbow Unicorn</string>
 
     <!-- Categories -->
-    <string name="misc_title">miscellaneous</string>
+    <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">spoof, animations</string>
     <string name="statusbar_title">Status bar</string>
     <string name="statusbar_summary">Clock, carrier, status icons</string>
@@ -50,37 +53,15 @@
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
 
-    <!-- Status bar - Battery -->
-    <string name="status_bar_battery_title">Battery indicator</string>
-    <string name="battery_settings_title">Battery indicator</string>
+    <!-- Battery customizations -->
+    <string name="battery_settings_title">Battery Settings</string>
     <string name="battery_settings_summary">Control behavior and style of the battery icon in the status bar</string>
+    <string name="battery_options">Battery</string>
     <string name="battery_style_title">Battery Style</string>
     <string name="battery_style_port">Portrait</string>
     <string name="battery_style_circle">Circle</string>
-    <string name="battery_style_pa_circle">PA Circle</string>
     <string name="battery_style_landscape">Landscape</string>
     <string name="battery_style_landscape_reversed">Landscape (reversed)</string>
-    <string name="battery_style_icon_iOS15" translatable="false">iOS 15</string>
-    <string name="battery_style_icon_iOS16" translatable="false">iOS 16</string>
-    <string name="battery_style_icon_landscape_origami">Origami</string>
-    <string name="battery_style_icon_landscape_miui_pill">MIUI Pill</string>
-    <string name="battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="battery_style_icon_landscape_style_b">Landscape L Style B</string>
-    <string name="battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="battery_style_icon_landscape_buddy">Landscape Capsule</string>
-    <string name="battery_style_icon_land_a">Landscape Simply</string>
-    <string name="battery_style_icon_land_b">Landscape NeNine</string>
-    <string name="battery_style_icon_land_c">Landscape ColorOS</string>
-    <string name="battery_style_icon_land_d">Landscape Love</string>
-    <string name="battery_style_icon_land_j">Landscape Strip Path</string>
-    <string name="battery_style_icon_land_m">Landscape iOS Outline</string>
-    <string name="battery_style_icon_land_n">Landscape Ruler</string>
-    <string name="battery_style_icon_land_o">Landscape Windows</string>
     <string name="battery_style_text">Text</string>
     <string name="battery_percent_title">Show percent</string>
     <string name="battery_percent_summary">Always show the battery percent with the icon</string>
@@ -88,6 +69,11 @@
     <string name="battery_percent_inside_summary">Show percent inside the icon</string>
     <string name="show_battery_percent_charging_title">Show percent when charging</string>
     <string name="show_battery_percent_charging_summary">Enforce showing the percent next to the icon when charging</string>
+
+    <!-- Battery saver -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">Extreme refresh rate is on</string>
 
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Screen off animation</string>
@@ -157,6 +143,9 @@
     <string name="spoofing_snap_summary">Spoof Snapchat as a Pixel XL to fix possible chat issues</string>
     <string name="gameprops_title">Unlock higher FPS in games</string>
     <string name="gameprops_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
+    <string name="spoofing_keybox" translatable="false">Keybox</string>
+    <string name="spoofing_pif" translatable="false">PIF</string>
+    <string name="spoofing_pif_props" translatable="false">Pixel props</string>
 
     <!-- Miscellaneous/Spoofing/Play Integrity fix JSON update -->
     <string name="toast_spoofing_success">Successfully downloaded pif.json. Spoofing as %1$s for Play Integrity.</string>
@@ -197,18 +186,18 @@
      <string name="show_media_progress_title">Show media progress</string>
      <string name="show_media_progress_summary">"Display media playback progress in the status bar</string>
      <string name="progress_footer_text">
-     The status bar progress bar provides real-time updates for both media playback and active downloads/uploads.\n\n
-     - 🎵 Media Progress:\n
-     • Displays playback progress for music and video when media is playing.\n
-     • Single tap opens playback controls (Previous, Next track).\n
-     • Double tap toggles play/pause.\n
-     • Swipe left skips to the previous track.\n
-     • Swipe right skips to the next track.\n
-     • Long press opens the media app.\n\n
-     - 📥 Download/Upload Progress:\n
-     • Shows progress for ongoing downloads and uploads.\n
-     • Automatically hides when no active transfers are detected.\n
-     • Single tap opens the app responsible for the download.\n\n
+     The status bar progress bar provides real-time updates for both media playback and active downloads/uploads.
+     - 🎵 Media Progress:
+     • Displays playback progress for music and video when media is playing.
+     • Single tap opens playback controls (Previous, Next track).
+     • Double tap toggles play/pause.
+     • Swipe left skips to the previous track.
+     • Swipe right skips to the next track.
+     • Long press opens the media app.
+     - 📥 Download/Upload Progress:
+     • Shows progress for ongoing downloads and uploads.
+     • Automatically hides when no active transfers are detected.
+     • Single tap opens the app responsible for the download.
      The progress bar dynamically switches between media and download states, ensuring you always have the most relevant information at a glance.
      </string>
 
@@ -217,7 +206,7 @@
     <string name="status_bar_bluetooth_battery_summary">Display battery status for the connected Bluetooth device, if available</string>
 
     <!-- Freeform launch mode -->
-    <string name="freeform_launch_mode_title">Freeform launch mode</string>
+    <string name="freeform_launch_mode_title">Floating window</string>
     <string name="freeform_launch_mode_1">Native AOSP</string>
     <string name="freeform_launch_mode_2">LMOFreeForm</string>
 
