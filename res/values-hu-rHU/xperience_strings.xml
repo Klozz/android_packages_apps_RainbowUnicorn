@@ -102,4 +102,6 @@
     <string name="themes_udfps_icon_title">Ujjlenyomat-ikon</string>
     <string name="themes_udfps_icon_summary">Itt állíthatja be a képernyőbe épített ujjlenyomatszenzor ikonstílusát</string>
     <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Gyorsbeállítások</string>
+    <string name="show_qs_on_secure_keyguard_summary">Megengedi a gyorsbeállítások lehúzását a biztonsági záróképernyőn</string>
 </resources>
