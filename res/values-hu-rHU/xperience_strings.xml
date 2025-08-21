@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 VoltageOS
+<!-- Copyright (C) 2025 The XPerience Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -13,7 +16,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
     <!-- Categories -->
-    <string name="misc_title">egyebek</string>
     <string name="misc_summary">álcázás, animációk</string>
     <string name="statusbar_title">Állapotsor</string>
     <string name="statusbar_summary">Óra, szolgáltató, állapotikonok</string>
@@ -40,35 +42,13 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G-ikon</string>
     <string name="show_fourg_icon_summary">LTE helyett 4G ikon jelenik meg a térerő ikon mellett</string>
-    <!-- Status bar - Battery -->
-    <string name="status_bar_battery_title">Akkumulátorkijelző</string>
-    <string name="battery_settings_title">Akkumulátorkijelző</string>
+    <!-- Battery customizations -->
     <string name="battery_settings_summary">Az állapotsori akkuikon viselkedésének és stílusának szabályozása</string>
     <string name="battery_style_title">Akkumulátorstílus</string>
     <string name="battery_style_port">Álló (Portré)</string>
     <string name="battery_style_circle">Kör</string>
-    <string name="battery_style_pa_circle">PA-kör</string>
     <string name="battery_style_landscape">Fekvő (Tájkép)</string>
     <string name="battery_style_landscape_reversed">Fekvő (fordított)</string>
-    <string name="battery_style_icon_landscape_origami">Origami</string>
-    <string name="battery_style_icon_landscape_miui_pill">MIUI-kapszula</string>
-    <string name="battery_style_icon_rlandscape_style_a">Fekvő (jobb) A-stílus</string>
-    <string name="battery_style_icon_landscape_style_a">Fekvő (bal) A-stílus</string>
-    <string name="battery_style_icon_rlandscape_style_b">Fekvő (jobb) B-stílus</string>
-    <string name="battery_style_icon_landscape_style_b">Fekvő (bal) B-stílus</string>
-    <string name="battery_style_icon_landscape_pill">Álló (Portré) MX</string>
-    <string name="battery_style_icon_landscape_line">Lorn (fekvő)</string>
-    <string name="battery_style_icon_landscape_musku">Álló (Portré) iOS</string>
-    <string name="battery_style_icon_landscape_signal">Airoo (fekvő)</string>
-    <string name="battery_style_icon_landscape_buddy">Kapszula (fekvő)</string>
-    <string name="battery_style_icon_land_a">Szimpla (fekvő)</string>
-    <string name="battery_style_icon_land_b">NeNine (fekvő)</string>
-    <string name="battery_style_icon_land_c">ColorOS (fekvő)</string>
-    <string name="battery_style_icon_land_d">Szerelem (fekvő)</string>
-    <string name="battery_style_icon_land_j">Szerpentin (fekvő)</string>
-    <string name="battery_style_icon_land_m">iOS Körvonal (fekvő)</string>
-    <string name="battery_style_icon_land_n">Vonalzó (fekvő)</string>
-    <string name="battery_style_icon_land_o">Windows (fekvő)</string>
     <string name="battery_style_text">Szöveg</string>
     <string name="battery_percent_title">Százalék-kijelzés</string>
     <string name="battery_percent_summary">Mindig ikonnal jelenítse meg az akkuzázalékot</string>
@@ -76,6 +56,7 @@
     <string name="battery_percent_inside_summary">Százalék megjelenítése az ikonon belül</string>
     <string name="show_battery_percent_charging_title">Csak töltéskor</string>
     <string name="show_battery_percent_charging_summary">Töltés közben mindenképp megjeleníti a százalék-értéket az ikon mellett</string>
+    <!-- Battery saver -->
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Képernyő-kikapcsolási animáció</string>
     <string name="screen_off_animation_default">Alapértelmezett</string>
