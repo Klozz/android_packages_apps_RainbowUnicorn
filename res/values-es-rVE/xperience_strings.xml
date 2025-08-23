@@ -206,4 +206,28 @@
     <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
     <string name="network_traffic_hidearrow">Ocultar flechas</string>
     <string name="network_traffic_hidearrow_summary">Ocultar las flechas del indicador de tráfico de red</string>
+    <!-- Font styles -->
+    <!-- Lockscreen Clock Highlight Guide -->
+    <!-- Lockscreen Clock Revamp -->
+    <string name="lockscreen_settings_title">Pantalla de bloqueo</string>
+    <!-- AOD custom image -->
+    <!-- Depth Wallpaper -->
+    <!-- Lockscreen categories -->
+    <string name="lockscreen_interface_category">Interfaz</string>
+    <!-- Lockscreen widgets  -->
+    <!-- Weather -->
+    <!-- AOD Settings -->
+    <!-- Statusbar Clock background chip -->
+    <!-- Custom Clock Style -->
+    <!-- Doze settings -->
+    <!-- Now Bar -->
+    <!-- Nowbar height -->
+    <!-- AOD wallpaper -->
+    <!-- Peek Display -->
+    <string name="top">Superior</string>
+    <string name="bottom">Fondo</string>
+    <!-- Peek Display Styles -->
+    <!-- Wallpaper Styles -->
+    <!-- Lockscreen Widgets Styles -->
+    <!-- Apply Button -->
 </resources>
