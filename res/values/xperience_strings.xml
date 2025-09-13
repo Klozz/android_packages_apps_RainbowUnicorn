@@ -120,31 +120,45 @@
     <!-- Miscellaneous -->
     <string name="miscellaneous_spoofing_category">Spoofing</string>
 
-    <!-- Keybox -->
-    <string name="keybox_title">Keybox</string>
-    <string name="keybox_summary">Manage device keybox data</string>
-    <string name="keybox_data_title">Load keybox data</string>
-    <string name="keybox_data_summary">Select a keybox XML file to load</string>
-    <string name="keybox_data_summary_loaded">Loaded %1$s keybox with %2$d certificates (%3$s)</string>
-    <string name="keybox_data_delete_title">Delete keybox data</string>
-    <string name="keybox_data_delete_summary">Remove currently loaded keybox data</string>
-    <string name="keybox_data_loaded">Keybox data loaded successfully</string>
-    <string name="keybox_data_cleared">Keybox data cleared</string>
-    <string name="keybox_data_error">Failed to load keybox data</string>
-    <string name="keybox_data_invalid">Invalid keybox XML file</string>
+    <!-- Miscellaneous/Spoofing -->
+    <string name="gms_spoof_title">Play Integrity fix</string>
+    <string name="gms_spoof_summary">Spoof your device to pass Google Play Attestation</string>
+    <string name="spoofing_title">Component spoofing</string>
+    <string name="spoofing_summary">Bypass app restrictions by spoofing components</string>
+    <string name="spoofing_system_wide_category">System-Wide</string>
+    <string name="spoofing_pixel_props_title">Pixel props</string>
+    <string name="spoofing_pixel_props_summary">Spoof a select group of Google apps to the latest Pixel device</string>
+    <string name="tensor_spoof_title">Spoof tensor features</string>
+    <string name="tensor_spoof_summary">Unlock tensor/pixel features</string>
+    <string name="spoofing_storage_encryption_title">Storage encryption</string>
+    <string name="spoofing_storage_encryption_summary">Spoof the device storage encryption status to \'Encrypted\'</string>
+    <string name="spoofing_app_specific_category">App-Specific</string>
+    <string name="spoofing_qsb_title">Google app</string>
+    <string name="spoofing_qsb_summary">Spoof the Google app to the latest Pixel device to unlock exclusive features</string>
+    <string name="spoofing_vending_title">Play Store</string>
+    <string name="spoofing_vending_summary">Spoof the Play Store to the latest Pixel device</string>
+    <string name="spoofing_photos_title">Google Photos</string>
+    <string name="spoofing_photos_summary">Spoof the Google Photos app as a Pixel XL</string>
+    <string name="spoofing_snap_title">Snapchat</string>
+    <string name="spoofing_snap_summary">Spoof Snapchat as a Pixel XL to fix possible chat issues</string>
+    <string name="gameprops_title">Unlock higher FPS in games</string>
+    <string name="gameprops_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
+    <string name="spoofing_keybox" translatable="false">Keybox</string>
+    <string name="spoofing_pif" translatable="false">PIF</string>
+    <string name="spoofing_pif_props" translatable="false">Pixel props</string>
 
-    <!-- PIF -->
-    <string name="pif_title">Play Integrity</string>
-    <string name="pif_summary">Manage device Play Integrity data for Google Play Services</string>
-    <string name="pif_data_title">Load PIF data</string>
-    <string name="pif_data_summary">Select a PIF JSON file to load</string>
-    <string name="pif_data_delete_title">Delete PIF data</string>
-    <string name="pif_data_delete_summary">Remove currently loaded PIF data</string>
-    <string name="pif_data_loaded">PIF data loaded successfully</string>
-    <string name="pif_data_cleared">PIF data cleared</string>
-    <string name="pif_data_error">Failed to load PIF data</string>
-    <string name="pif_data_invalid">Invalid PIF JSON file</string>
-    <string name="pif_data_summary_loaded">PIF data loaded: %1$d props (%2$s)</string>
+    <!-- Miscellaneous/Spoofing/Play Integrity fix JSON update -->
+    <string name="toast_spoofing_success">Successfully downloaded pif.json. Spoofing as %1$s for Play Integrity.</string>
+    <string name="toast_spoofing_failure">Failed to spoof properties.</string>
+    <string name="update_pif_json_title">Update Play Integrity fix</string>
+    <string name="update_pif_json_summary">Update PIF spoofing device, requires internet connection.</string>
+    <string name="show_pif_properties_title">Play Integrity fix properties</string>
+    <string name="show_pif_properties_summary">Show all currently set PIF properties</string>
+    <string name="error_loading_properties">Error loading PIF properties</string>
+    <string name="pif_spoofing_title">Select PIF JSON file</string>
+    <string name="pif_spoofing_summary">Choose the PIF JSON file to be used to spoof Play Integrity</string>
+    <string name="keybox_data_title">Select keybox XML to spoof</string>
+    <string name="keybox_data_summary">Select keybox XML used for key attestation spoofing for all apps system wide. Click the delete button in order to reset the keybox data values used by the system.</string>
 
     <!-- Lock screen -->
     <string name="lock_screen_interface_category">Interface</string>
@@ -190,10 +204,6 @@
      <!-- Bluetooth -->
     <string name="status_bar_bluetooth_battery_title">Bluetooth battery status</string>
     <string name="status_bar_bluetooth_battery_summary">Display battery status for the connected Bluetooth device, if available</string>
-
-    <!-- Sidebar -->
-    <string name="sidebar_title">Sidebar</string>
-    <string name="sidebar_summary">Quickly open apps in a floating window</string>
 
     <!-- Freeform launch mode -->
     <string name="freeform_launch_mode_title">Floating window</string>
@@ -405,46 +415,4 @@
     <!-- Apply Button -->
     <string name="apply_change_button_title">Apply</string>
 
-    <!-- Monet settings -->
-    <string name="monet_settings">Monet settings</string>
-    <string name="monet_settings_title">Monet Personalization</string>
-    <string name="monet_settings_sammary">Customize the dynamic theme engine</string>
-    <string name="monet_engine_custom_color_title">Accent color</string>
-    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
-    <string name="monet_engine_custom_bgcolor_title">Background color</string>
-    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_luminance_factor_title">Luminance</string>
-    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
-    <string name="monet_engine_whole_palette_title">Whole palette</string>
-    <string name="monet_engine_whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
-    <string name="monet_engine_tint_background_title">Tint background</string>
-    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
-    <string name="monet_engine_style_title">Theme style</string>
-    <string name="monet_engine_style_tonal_spot">Tonal Spot (Default)</string>
-    <string name="monet_engine_style_vibrant">Vibrant</string>
-    <string name="monet_engine_style_expressive">Expressive</string>
-    <string name="monet_engine_style_spritz">Spritz</string>
-    <string name="monet_engine_style_rainbow">Rainbow</string>
-    <string name="monet_engine_style_fruit_salad">Fruit Salad</string>
-    <string name="monet_engine_style_content">Content</string>
-    <string name="monet_engine_style_monochromatic">Monochromatic</string>
-    <string name="monet_engine_color_source_title">Color source</string>
-    <string name="monet_engine_color_source_preset">Preset</string>
-    <string name="monet_engine_wallpaper_color_title">Select a different accent color from your wallpaper</string>
-    <string name="monet_engine_wallpaper_color_summary">Wallpaper color selector</string>
-    <string name="monet_engine_wallpaper_color_not_available">Not available</string>
-
-    <!-- Island Notification -->
-    <string name="island_notification_title">Island notification</string>
-    <string name="island_notification_summary">Display heads-up notification in Dynamic Island style</string>
-    <string name="island_notification_footer_text">
-        The Island notification feature, inspired by iOS\'s Dynamic Island, transforms Android\'s heads-up notifications into quick-access and compact notification utility.\n\nIsland Quick Access Controls includes the following features:\n1. Tap island notification to quick answer phone calls.\n2. Long press island notification to reject phone calls.\n3. Long press island notification to expand the island notification preview.
-    </string>
-
-    <!--Statusbar RR -->
-    <string name="show_refresh_rate_title">Display refresh rate</string>
-    <string name="show_refresh_rate_summary">Displays the current refresh rate (Hz) in the status bar.</string>
 </resources>
