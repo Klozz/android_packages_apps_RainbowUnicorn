@@ -99,41 +99,8 @@
     <string name="show_qs_on_secure_keyguard_summary">Permitir cambiar la configuración rápida en la pantalla de bloqueo</string>
     <!-- Miscellaneous -->
     <string name="miscellaneous_spoofing_category">Spoofing</string>
-    <!-- Miscellaneous/Spoofing -->
-    <string name="gms_spoof_title">Play Integrity fix</string>
-    <string name="gms_spoof_summary">Falsifica tu dispositivo para pasar la certificación de Google Play</string>
-    <string name="spoofing_title">Falsificación de componentes</string>
-    <string name="spoofing_summary">Elude las restricciones de la aplicación mediante suplantación de componentes</string>
-    <string name="spoofing_system_wide_category">Todo el sistema</string>
-    <string name="spoofing_pixel_props_title">Props de píxel</string>
-    <string name="spoofing_pixel_props_summary">Falsifica un grupo selecto de apps de Google para que crean estar en el último dispositivo Pixel</string>
-    <string name="tensor_spoof_title">Simular funciones de Tensor</string>
-    <string name="tensor_spoof_summary">Desbloquear características de tensor/píxel</string>
-    <string name="spoofing_storage_encryption_title">Cifrado de almacenamiento</string>
-    <string name="spoofing_storage_encryption_summary">Simula que el almacenamiento del dispositivo está cifrado</string>
-    <string name="spoofing_app_specific_category">Aplicación específica</string>
-    <string name="spoofing_qsb_title">Aplicaciones de Google</string>
-    <string name="spoofing_qsb_summary">Simula que la app de Google se ejecuta en el último Pixel para habilitar funciones exclusivas</string>
-    <string name="spoofing_vending_title">Play Store</string>
-    <string name="spoofing_vending_summary">Simula que la Play Store se ejecuta en el último Pixel</string>
-    <string name="spoofing_photos_title">Fotos de Google</string>
-    <string name="spoofing_photos_summary">Suplanta el dispositivo como Pixel XL en la aplicación Google Fotos para desbloquear el respaldo de imágenes ilimitado</string>
-    <string name="spoofing_snap_title">SnapChat</string>
-    <string name="spoofing_snap_summary">Suplanta el dispositivo como Pixel XL en la aplicación Snapchat para solucionar posibles problemas con el chat</string>
-    <string name="gameprops_title">Desbloquea una tasa de fotogramas más alta en los juegos</string>
-    <string name="gameprops_summary">Falsifica tu dispositivo como otro modelo para ciertos juegos y desbloquea mayor tasa de FPS</string>
-    <!-- Miscellaneous/Spoofing/Play Integrity fix JSON update -->
-    <string name="toast_spoofing_success">Pif.json descargado con éxito. Spoofing como %1$s para la integridad de Google Play.</string>
-    <string name="toast_spoofing_failure">Fallo al falsear propiedades.</string>
-    <string name="update_pif_json_title">Actualizar Play Integrity fix</string>
-    <string name="update_pif_json_summary">Actualizar el dispositivo de suplantación de PIF, requiere conexión a Internet.</string>
-    <string name="show_pif_properties_title">Propiedades de corrección de integridad de Google Play</string>
-    <string name="show_pif_properties_summary">Mostrar todas las propiedades PIF establecidas actualmente</string>
-    <string name="error_loading_properties">Error al cargar las propiedades PIF</string>
-    <string name="pif_spoofing_title">Seleccione el archivo JSON PIF</string>
-    <string name="pif_spoofing_summary">Elija el archivo PIF JSON que se usará para suplantar la integridad de Google Play</string>
-    <string name="keybox_data_title">Seleccione el keybox XML para suplantación</string>
-    <string name="keybox_data_summary">Seleccione el keybox xml para todas las aplicaciones del sistema. Haga clic en el botón eliminar para restablecer los valores de datos keybox utilizados por el sistema.</string>
+    <!-- Keybox -->
+    <!-- PIF -->
     <!-- Lock screen -->
     <string name="lock_screen_interface_category">Interfaz</string>
     <string name="lock_screen_charging_stats_title">Estadísticas de carga</string>
@@ -175,6 +142,7 @@
     <!-- Bluetooth -->
     <string name="status_bar_bluetooth_battery_title">Estado de la batería del dispositivo Bluetooth</string>
     <string name="status_bar_bluetooth_battery_summary">Muestra el nivel de batería de los dispositivos bluetooth conectados, si está disponible</string>
+    <!-- Sidebar -->
     <!-- Freeform launch mode -->
     <string name="freeform_launch_mode_title">Ventana flotante</string>
     <string name="freeform_launch_mode_1">AOSP nativo</string>
@@ -358,4 +326,8 @@
     <string name="lockscreen_widgets_transparency_summary">Configurar el nivel de opacidad del widget de estilo translúcido</string>
     <!-- Apply Button -->
     <string name="apply_change_button_title">Aplicar</string>
+    <!-- Monet settings -->
+    <string name="monet_engine_custom_color_title">Color de acento</string>
+    <!-- Island Notification -->
+    <!--Statusbar RR -->
 </resources>
