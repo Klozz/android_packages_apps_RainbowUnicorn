@@ -105,6 +105,7 @@
     <string name="keybox_data_title">Cargar datos de keybox</string>
     <string name="keybox_data_summary">Seleccione un archivo XML «keybox» para cargar</string>
     <string name="keybox_data_summary_loaded">Cargado %1$s «keybox» con %2$d certificados (%3$s)</string>
+    <string name="keybox_data_loaded_summary">Cargado %1$s «keybox» con %2$d certificados (%3$s)</string>
     <string name="keybox_data_delete_title">Eliminar datos de «keybox»</string>
     <string name="keybox_data_delete_summary">Eliminar datos de «keybox» cargados actualmente</string>
     <string name="keybox_data_loaded">Datos de «keybox» cargados correctamente</string>
@@ -114,8 +115,6 @@
     <!-- PIF -->
     <string name="pif_title">Play Integrity</string>
     <string name="pif_summary">Gestionar los datos de Play Integrity del dispositivo para Google Play Services</string>
-    <string name="pif_data_title">Cargar datos PIF</string>
-    <string name="pif_data_summary">Seleccione un archivo PIF JSON a cargar</string>
     <string name="pif_data_delete_title">Borrar datos PIF</string>
     <string name="pif_data_delete_summary">Eliminar datos PIF cargados actualmente</string>
     <string name="pif_data_loaded">Datos PIF cargados correctamente</string>
@@ -123,6 +122,9 @@
     <string name="pif_data_error">Error al cargar los datos PIF</string>
     <string name="pif_data_invalid">Archivo JSON PIF inválido</string>
     <string name="pif_data_summary_loaded">Datos PIF cargados: %1$d props (%2$s)</string>
+    <!-- GMS cert chain -->
+    <!-- Play Integrity restriction -->
+    <!-- Google Photos Spoof -->
     <!-- Lock screen -->
     <string name="lock_screen_interface_category">Interfaz</string>
     <string name="lock_screen_charging_stats_title">Estadísticas de carga</string>
@@ -350,6 +352,7 @@
     <string name="lockscreen_widgets_transparency_summary">Configurar el nivel de opacidad del widget de estilo translúcido</string>
     <!-- Apply Button -->
     <string name="apply_change_button_title">Aplicar</string>
+    <!-- WiFi Standard icon -->
     <!-- Monet settings -->
     <string name="monet_settings">Ajustes Monet</string>
     <string name="monet_settings_title">Personalización de Monet</string>
