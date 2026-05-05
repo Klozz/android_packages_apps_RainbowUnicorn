@@ -43,6 +43,7 @@
     <!-- Recents panel settings -->
     <!--Reset feature -->
     <!-- Settings Titles-->
+    <string name="xperience_settings_title">Paramètres d\'XPerience™</string>
     <!-- Show navbar -->
     <!-- Statusbar net monitor -->
     <!-- Statusbar Tuner -->
