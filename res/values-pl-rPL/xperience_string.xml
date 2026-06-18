@@ -46,8 +46,17 @@
     <!-- Power Menu -->
     <!-- Quick unlock -->
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Wyczyść wszystko</string>
     <!--Reset feature -->
     <!-- Settings Titles-->
+    <string name="xperience_settings_title">Ustawienia XPerience™</string>
+    <string name="statusbar_title">Pasek stanu </string>
+    <string name="display_title">Ustaw. ekranu </string>
+    <string name="recents_title">Ostatnie ustaw</string>
+    <string name="misc_title">Ustawienia różne</string>
+    <string name="navbar_title">Ustaw. Nabvar</string>
+    <string name="lockscreen_title">Ustaw. ekr. blok</string>
+    <string name="buttons_title">Ustaw. klawiszy</string>
     <!-- Show navbar -->
     <!-- Statusbar net monitor -->
     <!-- Statusbar Tuner -->
@@ -58,7 +67,9 @@
     <!-- Status bar clock options -->
     <!-- Three-fingers-swipe to screenshot -->
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Info o CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Nakł. ekr. zawiera aktualne dane CPU</string>
     <!-- Volume category -->
     <!-- Volume rocker music control -->
     <!-- Volume rocker wake -->

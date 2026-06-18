@@ -19,10 +19,28 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- ANBI -->
     <!-- Battery Styles -->
+    <string name="battery_style_title">Batterij icoon stijl</string>
+    <string name="battery_style_percent_title">Batterij percentage</string>
+    <string name="battery_style_land">Landschap</string>
+    <string name="battery_style_dotted_circle">Gestippelde cirkel</string>
+    <string name="battery_style_big_circle">Grote cirkel</string>
+    <string name="battery_style_big_dotted_circle">Grote gestippelde cirkel</string>
+    <string name="show_battery_percent_summary">Niveau percentage van de batterij in de buurt van het pictogram weergeven</string>
+    <string name="battery_style_category_title">Batterij icoon</string>
+    <string name="battery_percent_none">Niet weergeven</string>
+    <string name="battery_percent_outside">Toon naast icoon</string>
+    <string name="battery_percent_inside">Toon binnen in het icoon</string>
     <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_port">Portret</string>
+    <string name="status_bar_battery_style_circle">Cirkel</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Verborgen</string>
     <!-- Battery mode -->
+    <string name="battery_percentage_title">Batterij percentage</string>
     <!-- Carrier Label -->
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Schermbeveiliging</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Dubbeltikken op het bovenste derde of snelkoppeling gebied aan de onderkant op het vergrendelscherm om de slaapstand te activeren</string>
     <!-- Face unlock deprecated on Q -->
     <!-- Free form -->
     <!-- Hardware buttons -->
@@ -33,27 +51,54 @@
     <!-- Enable keys backlight-->
     <!-- HW Keys customization -->
     <!--Lockscreen tuner-->
+    <string name="lockscreen_tuner_title">Vergrendelscherm snelkoppelingen</string>
+    <string name="tuner_doze_always_on">Altijd aan</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Batterij informatie op vergrendelscherm</string>
+    <string name="lockscreen_battery_info_summary">Spanning en batterij temperatuur weergeven op lockscreen tijdens het opladen</string>
     <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navigatiebalk knoppen</string>
     <!-- Navigation bar theme -->
     <!-- Notification count -->
     <!-- Pocket judge -->
     <!-- Power Menu -->
     <!-- Quick unlock -->
     <!-- Recents panel settings -->
+    <string name="recents_clear_all_location_top_right">Rechtsboven</string>
+    <string name="recents_clear_all_location_top_left">Linksboven</string>
+    <string name="recents_clear_all_location_top_center">Middenboven</string>
+    <string name="recents_clear_all_location_bottom_right">Rechtsonder</string>
+    <string name="recents_clear_all_location_bottom_left">Linksonder</string>
+    <string name="recents_clear_all_location_bottom_center">Middenonder</string>
     <!--Reset feature -->
     <!-- Settings Titles-->
+    <string name="xperience_settings_title">XPerience™ instellingen</string>
+    <string name="statusbar_title">Statusbalk </string>
+    <string name="display_title">Weergave instellingen </string>
+    <string name="recents_title">Recente instellingen</string>
+    <string name="misc_title">Diverse instellingen</string>
+    <string name="navbar_title">Navigatiebalk Instellingen</string>
+    <string name="lockscreen_title">Schermbeveiliging instellingen</string>
     <!-- Show navbar -->
+    <string name="navigation_bar_enabled_title">Inschakelen</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Netwerkverkeer</string>
+    <string name="network_traffic_state_summary">Netwerkactiviteit weergeven in statusbalk</string>
+    <string name="network_traffic_autohide_threshold_title">Drempel voor netwerkactiviteit (KB/s)</string>
     <!-- Statusbar Tuner -->
     <!-- System default animation deprecate on Q-->
     <!-- Show 4G instead of LTE -->
     <!-- Statusbar logo -->
     <!-- Statusbar ticker -->
     <!-- Status bar clock options -->
+    <string name="dont_show">Niet weergeven</string>
+    <string name="am_pm_clock_none">Niet weergeven</string>
+    <string name="clock_date_display_none">Niet weergeven</string>
     <!-- Three-fingers-swipe to screenshot -->
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Toon CPU-informatie</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Scherm overlay weergegeven met huidige CPU info</string>
     <!-- Volume category -->
     <!-- Volume rocker music control -->
     <!-- Volume rocker wake -->
@@ -66,6 +111,8 @@
     <!-- SystemUI theme -->
     <!-- Fingerprint unlock keystore -->
     <!-- Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Batterij percentage</string>
+    <string name="status_bar_battery_percentage_default">Verborgen</string>
     <!-- Smart Pixels -->
     <!-- Quick Settings -->
     <!--Notify cat -->

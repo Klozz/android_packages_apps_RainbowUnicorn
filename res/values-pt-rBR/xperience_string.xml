@@ -263,6 +263,7 @@
     <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_next">Próximo ao ícone</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Pixels Inteligentes</string>
     <string name="smart_pixels_enable_title">Ativar Pixels Inteligentes</string>
@@ -305,4 +306,9 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <!-- SELinux status -->
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
 </resources>

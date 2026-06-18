@@ -19,10 +19,28 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- ANBI -->
     <!-- Battery Styles -->
+    <string name="battery_style_title">Stile icona batteria</string>
+    <string name="battery_style_percent_title">Percentuale della batteria</string>
+    <string name="battery_style_land">Orizzontale</string>
+    <string name="battery_style_dotted_circle">Cerchio puntato</string>
+    <string name="battery_style_big_circle">Cerchio grande</string>
+    <string name="battery_style_big_dotted_circle">Cerchio grande punteggiato</string>
+    <string name="show_battery_percent_summary">Mostra la percentuale della batteria accanto all\'icona</string>
+    <string name="battery_style_category_title">Icona della batteria</string>
+    <string name="battery_percent_none">Non mostrare</string>
+    <string name="battery_percent_outside">Mostra accanto all\'icona</string>
+    <string name="battery_percent_inside">Mostra all\'interno dell\'icona</string>
     <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_port">Verticale</string>
+    <string name="status_bar_battery_style_circle">Cerchio</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosta</string>
     <!-- Battery mode -->
+    <string name="battery_percentage_title">Percentuale della batteria</string>
     <!-- Carrier Label -->
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Schermata di blocco</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Doppio tocco sul terzo superiore o sull\'area inferiore della schermata di blocco per spegnere lo schermo</string>
     <!-- Face unlock deprecated on Q -->
     <!-- Free form -->
     <!-- Hardware buttons -->
@@ -33,31 +51,83 @@
     <!-- Enable keys backlight-->
     <!-- HW Keys customization -->
     <!--Lockscreen tuner-->
+    <string name="lockscreen_tuner_title">Scorciatoie schermata di blocco</string>
+    <string name="tuner_doze_always_on">Sempre acceso</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informazioni di ricarica nella schermata di blocco</string>
+    <string name="lockscreen_battery_info_summary">Mostra la massima corrente e voltaggio di ricarica e la temperatura della batteria sulla schermata di sblocco durante la carica</string>
     <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Pulsanti barra di navigazione</string>
     <!-- Navigation bar theme -->
     <!-- Notification count -->
     <!-- Pocket judge -->
     <!-- Power Menu -->
     <!-- Quick unlock -->
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Pulsante Cancella tutto</string>
+    <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto</string>
+    <string name="recents_clear_all_location_title">Posizione pulsante Cancella tutto</string>
+    <string name="recents_clear_all_location_top_right">In alto a destra</string>
+    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+    <string name="recents_clear_all_location_top_center">In alto al centro</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
     <!--Reset feature -->
     <!-- Settings Titles-->
+    <string name="xperience_settings_title">Impostazioni XPerience</string>
+    <string name="statusbar_title">Barra di Stato </string>
+    <string name="display_title">Impostazioni Schermo </string>
+    <string name="recents_title">Impostazioni dei Recenti</string>
+    <string name="misc_title">Impostazioni varie</string>
+    <string name="navbar_title">Impostazioni barra di navigazione</string>
+    <string name="lockscreen_title">Impostazioni Blocco Schermo</string>
+    <string name="buttons_title">Impostazioni pulsanti</string>
     <!-- Show navbar -->
+    <string name="navigation_bar_enabled_title">Attiva</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Traffico di rete</string>
+    <string name="network_traffic_state_summary">Mostra attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Nascondi automaticamente la soglia d\'attività di rete (KB/s)</string>
     <!-- Statusbar Tuner -->
     <!-- System default animation deprecate on Q-->
     <!-- Show 4G instead of LTE -->
     <!-- Statusbar logo -->
     <!-- Statusbar ticker -->
     <!-- Status bar clock options -->
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
+    <string name="enable_clock_weekday">Giorno della settimana</string>
+    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'ora</string>
+    <string name="right_clock">Orologio a destra</string>
+    <string name="left_clock">Orologio a sinistra</string>
+    <string name="dont_show">Non mostrare</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Mostra la data personalizzata prima dell\'orologio</string>
+    <string name="clock_date_style">Stile della data</string>
+    <string name="clock_date_format">Formato della data</string>
+    <string name="clock_date_string_edittext_title">Deve essere in formato data es. GG/MM/AA</string>
+    <string name="clock_date_string_edittext_summary">Inserisci stringa</string>
+    <string name="am_pm_clock_normal">Dimensione carattere normale</string>
+    <string name="am_pm_clock_small">Dimensione carattere piccolo</string>
+    <string name="am_pm_clock_none">Non mostrare</string>
+    <string name="clock_date_display_none">Non mostrare</string>
+    <string name="clock_date_display_small">Dimensione carattere piccolo</string>
+    <string name="clock_date_display_normal">Dimensione carattere normale</string>
+    <string name="clock_date_style_lowercase">Minuscolo</string>
+    <string name="clock_date_style_uppercase">Maiuscolo</string>
+    <string name="clock_date_format_custom">Formato Java personalizzato</string>
     <!-- Three-fingers-swipe to screenshot -->
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Mostra informazioni CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Sovrapporre sullo schermo le informazioni attuali della CPU</string>
     <!-- Volume category -->
     <!-- Volume rocker music control -->
     <!-- Volume rocker wake -->
     <!--XPerience Active Display -->
+    <string name="ActiveDisplay_title">Display Attivo XPerience</string>
+    <string name="ActiveDisplay_summary">Lo Schermo Attivo è un nuovo modo di gestire le notifiche in Android.</string>
     <!--XPerience custom settings -->
     <!-- navbar-->
     <!--Power menu-->
@@ -66,6 +136,8 @@
     <!-- SystemUI theme -->
     <!-- Fingerprint unlock keystore -->
     <!-- Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
+    <string name="status_bar_battery_percentage_default">Nascosta</string>
     <!-- Smart Pixels -->
     <!-- Quick Settings -->
     <!--Notify cat -->
